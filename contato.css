@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  h1, h1_1 {
+    color: #51d26b;
+    padding-left: 8px;
+    user-select: none;
+    font-size: 25px;
+  }
+  
+  @media (max-width: 600px) {
+      body {
+          padding: 10px;
+      }
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    user-select: none;
+  }
+  
+  a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+     0 0 20px rgb(81, 245, 122, 0.7),
+     0 0 30px rgb(84, 232, 129, 0.5);
+  }
+  
+  .contato {
+    color: #51d26b;
+    padding-left: 25px;
+    padding-top: 20px;
+    user-select: none;
+    font-size: 25px;
+  }
+  
+  .entre_em_contato {
+    color: #51d26b;
+    user-select: none;
+    font-size: 20px;
+  }
+  
+  .text_email {
+    color: #fcfcfc;
+    user-select: none;
+    font-size: 20px;
+  }
+  footer {
+    background-color: #14141a;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  
+  a:hover {
+    color: #51d26b;
+  }
+  p {
+    color: white;
+    font-size: 17px;
+    padding-left: 8px;
+    user-select: none;
+  }
+  [data-anchor="title"] {
+    margin-top: 1rem;
+    animation: mudar-cor 1s infinite;
+    animation-direction: alternate;
+    transform: scale(1);
+  }
+  
+  @keyframes mudar-cor {
+      0% { color: #45f772; }
+      100% { color: #4dfffc; }
+      100% { color: #1f75ff; }
+  
+  }
+  .linha-vertical {
+    width: 2px;
+    height: 550px; /* Altura da linha */
+    background-color: #ffffff; /* Cor da linha */
+    margin: 0 20px; /* Espaçamento ao redor da linha */
+  
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .github-img {
+    padding-left: 8px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 40px;
+  }
+  .replit-img {
+    padding-left: 10px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 35px;
+  }
+  .linkedin-img {
+    padding-left: 9px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 40px;
+  }
+  .instagram-img {
+    padding-left: 11px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 40px;
+  }
+  .zoom {
+    transition: transform 0.2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+  .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  main {
+    background: url("https://img.freepik.com/fotos-gratis/fundo-cinza-suave_53876-108462.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1724112000&semt=ais_hybrid")
+    no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+  }
+  .logo {
+    padding-top: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    position: relative;
+  }
+  
+  nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+  }
+  
+  nav a:hover::after{
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  .contate-nos{
+    width: 800px;
+  }
+
+  .contate_nos_title {
+    font-size: 30px;
+    margin-left: 350px;
+  }
+  .contate_email_title{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 350px;
+
+  }
+
+  .contate_telefone_title{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 350px;
+
+  }
+
+  .contate_website_title{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 350px;
+
+  }
+
+  .contate_p_email{
+    margin-left: 345px;
+  }
+
+  .contate_p_telefone{
+    margin-left: 359px;
+  }
+
+  .contate_p_website {
+    margin-left: 350px;
+  }
+
+  .form_contato {
+    background-color: #474747;
+    margin-left: 950px;
+    margin-bottom: -90px;
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+  }
+
+  .container {
+    height: 10px;
+  }
+
+  .label_contato{
+    margin-left: 210px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .title_contato {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 35px;
+  }
+  .input_contato1{
+    width: 250px;
+    border-style: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 70px;
+    text-indent: 15px;
+  }
+
+  .input_contato2{
+    width: 250px;
+    border-style: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-indent: 15px;
+  }
+
+  .input_contato3{
+    width: 250px;
+    border-style: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-indent: 15px;
+  }
+  
+  .button_contato {
+    border-style: none;
+    width: 190px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #45f772;
+    margin-top: 20px;
+    margin-left: 100px;
+  }

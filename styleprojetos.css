@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    user-select: none;
+    padding-left: 95px;
+  }
+  
+  @media (max-width: 600px) {
+      body {
+          padding: 10px;
+      }
+  }
+  
+  a:hover {
+    color: #51d26b;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+     0 0 20px rgb(81, 245, 122, 0.7),
+     0 0 30px rgb(84, 232, 129, 0.5);
+  }
+  p {
+    font-size: 17px;
+    color: #ffffff;
+    padding-left: 45px;
+    user-select: none
+  }
+  
+  h1 {
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    padding-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    user-select: none;
+  }
+  h2 {
+    padding-left: 90px;
+    color: #ffffff;
+  }
+  hr {
+    margin: 1px 95px; 
+    border: none; 
+    border-top: 2px solid #51d26b; 
+  }
+  .img_certificado, .img_certificado1, .img_certificado2, .img_certificado3, .img_certificado4, .img_certificado5 {
+    padding-left: 80px;  
+  }  
+  footer {
+    background-color: #14141a;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+  }
+  
+  main {
+    background: url("https://img.freepik.com/fotos-gratis/fundo-cinza-suave_53876-108462.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1724112000&semt=ais_hybrid") no-repeat center center;
+    background-size: cover;
+    height: 130vh;
+  }
+  .pdf_1 {
+    width: 40px;
+    height: 30px;
+    padding-right: 10px;
+  }
+  .caixa, .caixa1, .caixa2, .caixa3, .caixa4 {
+      width: 220px;
+      height: 60px; 
+      border: 2px solid #51d26b; 
+      padding: 20px; 
+      margin: 20px; 
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px; 
+  }
+  .github-img {
+    padding-left: 8px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 40px;
+  }
+  .replit-img {
+    padding-left: 10px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 35px;
+  }
+  .linkedin-img {
+    padding-left: 9px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 40px;
+  }
+  .instagram-img {
+    padding-left: 11px;
+    padding-bottom: 11px;
+    padding-top: 9px;
+    width: 40px;
+  }
+  .zoom {
+    transition: transform 0.2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    position: relative;
+  }
+  
+  nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #23232e;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+  
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
