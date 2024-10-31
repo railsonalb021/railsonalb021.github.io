@@ -203,14 +203,16 @@
     text-decoration: underline 2px;
     text-underline-offset: 8px;
     margin-top: 50px;
-    margin-left: -200px;
     font-size: 60px;
-    margin-left: 700px;
+    margin-left: 660px;
     font-style: italic;
   }
    
-  .text_canal a {
-    margin-left: 30px;
+  .text_canal {
+    margin-left: 450px;
+    font-style: italic;
+    color: #45f772;
+
   }
 
   .github-img {
@@ -258,7 +260,7 @@
     background: url("https://img.freepik.com/fotos-gratis/fundo-cinza-suave_53876-108462.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1724112000&semt=ais_hybrid")
     no-repeat center center;
     background-size: cover;
-    height: 180vh;
+    height: 210vh;
   }
   .logo {
     padding-top: 10px;
