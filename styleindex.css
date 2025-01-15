@@ -91,7 +91,7 @@
     font-style: italic;
     color: #45f772;
     margin-top: 100px;
-    margin-left: 260px;
+    margin-left: 350px;
     font-size: 30px;
     user-select: none;
   }
@@ -100,7 +100,7 @@
     font-style: italic;
     color: #ffffff;
     font-size: 20px;
-    margin-left: 265px;
+    margin-left: 355px;
     margin-top: 5px;
     user-select: none;
   }
@@ -109,7 +109,7 @@
     font-style: italic;
     color: #45f772;
     margin-top: -120px;
-    margin-left: 650px;
+    margin-left: 770px;
     font-size: 30px;
     user-select: none;
   }
@@ -118,7 +118,7 @@
     font-style: italic;
     color: #ffffff;
     font-size: 20px;
-    margin-left: 659px;
+    margin-left: 775px;
     margin-top: 5px;
     user-select: none;
   }
@@ -127,7 +127,7 @@
     font-style: italic;
     color: #45f772;
     margin-top: -120px;
-    margin-left: 1100px;
+    margin-left: 1205px;
     font-size: 30px;
     user-select: none;
   }
@@ -136,7 +136,7 @@
     font-style: italic;
     color: #ffffff;
     font-size: 20px;
-    margin-left: 1105px;
+    margin-left: 1210px;
     margin-top: 5px;
     user-select: none;
   }
@@ -204,12 +204,12 @@
     text-underline-offset: 8px;
     margin-top: 50px;
     font-size: 60px;
-    margin-left: 660px;
+    margin-left: 800px;
     font-style: italic;
   }
    
   .text_canal {
-    margin-left: 450px;
+    margin-left: 590px;
     font-style: italic;
     color: #45f772;
 
@@ -260,7 +260,7 @@
     background: url("https://img.freepik.com/fotos-gratis/fundo-cinza-suave_53876-108462.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1724112000&semt=ais_hybrid")
     no-repeat center center;
     background-size: cover;
-    height: 210vh;
+    height: 180vh;
   }
   .logo {
     padding-top: 10px;
@@ -313,7 +313,7 @@
 
   .img1 {
     margin-top: 30px;
-    margin-left: 210px;
+    margin-left: 300px;
     width: 400px;
     height: 300px;
     border-radius: 30px;
@@ -338,6 +338,6 @@
 
   .hr_canal {
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 330px;
     width: 1200px;
   }

@@ -145,7 +145,7 @@
     background: url("https://img.freepik.com/fotos-gratis/fundo-cinza-suave_53876-108462.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1724112000&semt=ais_hybrid")
     no-repeat center center;
     background-size: cover;
-    height: 290vh;
+    height: 240vh;
   }
   .logo {
     padding-top: 10px;
@@ -206,7 +206,7 @@
 
   .img1 {
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 210px;
     width: 400px;
     height: 300px;
     border-radius: 30px;
@@ -231,7 +231,7 @@
 
   .img4 {
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 210px;
     border-radius: 30px;
     width: 400px;
     height: 300px;
